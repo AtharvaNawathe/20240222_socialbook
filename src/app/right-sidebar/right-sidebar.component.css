@@ -1,69 +1,48 @@
-.right-sidebar{
-    flex-basis: 25%;
-    position: sticky;
-    top: 70px;
-    align-self: flex-start;
-    background: var(--bg-color);
-    padding: 20px;
-    border-radius: 4px;
-    color: #626262;
+.right-sidebar {
+    margin-left: 80px;
 
 }
-
-.sidebar-title{
+.sidebar-title {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 18px;
-    width: 25%;
-    margin-left: 20%;
-   
-
-}
-.sidebar-title h4{
+  }
+  .sidebar-title h4 {
     font-weight: 600;
     font-size: 16px;
-   
-
-}
-.sidebar-title a{
+  }
+  .sidebar-title a {
     text-decoration: none;
     color: #1876f2;
     font-size: 12px;
-   
+  }
   
-
-}
-.event{
+  .event {
     display: flex;
     font-size: 16px;
     margin-bottom: 20px;
-    margin-left: 75%;
-
-}
-.left-event{
+  }
+  .left-event {
     border-radius: 10px;
     height: 65px;
     width: 65px;
     margin-right: 15px;
     padding-top: 10px;
-    text-align:center;
+    text-align: center;
     position: relative;
-    overflow:hidden;
+    overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
-}
-.event p{
+  }
+  .event p {
     font-size: 12px;
-
-}
-.event a{
+  }
+  .event a {
     font-size: 12px;
     text-decoration: none;
     color: #1876f2;
-
-}
-.left-event span{
+  }
+  .left-event span {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -72,33 +51,44 @@
     color: #fff;
     font-size: 10px;
     padding: 4px 0;
-
-}
-.siderbar-ads{
-    width: 100%;
-    margin-bottom: 20px;
-    border-radius: 4px;
-
-}
-.online-list{
+  }
+  .online-list {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-
-}
-.online-list .online img{
+  }
+  .online-list .online img {
     width: 40px;
     border-radius: 50%;
-
-}
-.online-list .online{
+    height: 40px;
+  }
+  .online-list .online {
     width: 40px;
     border-radius: 50%;
     margin-right: 15px;
-
-}
-.online-list .online::after{
+  }
+  .online-list .online::after {
     top: unset;
     bottom: 5px;
-
-}
+  }
+  
+  .online {
+    position: relative;
+  }
+  .online::after {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #41db51;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .siderbar-ads {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+  }
